@@ -1,12 +1,17 @@
 package com.example;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 /**
  * Hello world!
  *
  */
+@Entity
 public class Student
 {
     private String name;
+    @Id
     private int id;
     private int age;
 
@@ -32,6 +37,6 @@ public class Student
     @Override
     public String toString() {
         return "Student {" + "id=" +id +
-                ",name= " +name +"\""+",age " +age +'}';
+                ",name= " +name +",age " +age +'}';
     }
 }
