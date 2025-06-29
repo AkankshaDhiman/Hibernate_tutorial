@@ -1,1 +1,1 @@
-# Hibernate_tutorial_
+# Hibernate_tutorial
